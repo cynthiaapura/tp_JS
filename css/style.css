@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@100;200;300&family=Roboto:wght@300;400&display=swap');
+
+html{
+    font-size: 62.5%;
+    background: #222;
+    color: #fff;
+    /* cover image */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font: 1.6rem 'Roboto Slab', sans-serif;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    /* header top une fraction au milieu footer auto */
+}
+h1, h2, h3, p, figure, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
+    font-weight: 300;
+}
+img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+button{
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    font-size: inherit; /* inherit = héritage du body */
+}
+/* theme */
+
+header h1, footer{
+    line-height: 7.8rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+}
+header h1 a{
+    color: inherit;
+}
+section {
+    text-align: center;
+    color :#fff
+}
+p{
+    padding: 1rem;
+    margin: auto;
+}
+button{
+    padding: 1rem;
+    margin: auto;
+    border: .1rem solid;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+footer{
+    line-height: 3.5rem;
+}
+@media screen and (max-width: 100rem) {
+    header h1{
+        font-size: 1rem;
+    }
+    .modal-parent figure{
+        width: 100%;
+    }
+}
