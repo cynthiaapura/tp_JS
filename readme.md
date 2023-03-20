@@ -1,5 +1,6 @@
 # Exercice JS
 
+[Lien vers la page web](https://cynthiaapura.github.io/tp_JS/)
 ## Exercice 1 -
 
 Création d'un algorithme en Javascript, qui demande à un internaute s’il a des enfants et suite aux réponses de chaque internaute on affiche des messages ciblés.
